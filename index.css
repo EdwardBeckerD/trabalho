@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+:root{
+    --principal-color:#89eb73;
+    --titule-color:darkblue;
+}
+.text-style{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+header{
+    display: grid;
+    place-items: center;
+    background-color: var(--principal-color);
+    height: 15vh;
+}
+header h1{
+    font-size: 4vw;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li a{
+    margin: 0px 1em;
+    text-decoration: none;
+}
+
+.blue{
+    color: rgb(0, 0, 150);
+}
+.red{
+    color: darkred;
+}
+.green{
+    color: darkgreen;
+}
+section{
+    text-align: center;
+}
+article{
+    margin-top: 30px;
+}
+h2{
+    color: var(--titule-color);
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#parte1 p{
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    text-indent: 2em;
+    margin-top: 20px;
+}
+#principal-image{
+    width: 50%;
+}
+#secundary-image-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#secundary-image-box div{
+    text-align: center;
+    width: 50vh;
+    height: auto;
+    transition: background-color 0.2s ease-in-out,width 0.2s ease-in-out;
+    border-style: groove;
+    background-color: #56d2fc;
+}
+#secundary-image-box div:hover{
+    background-color: #28c3f6;
+    width: 55vh;
+}
+#secundary-image-box div h3{
+    font-size: 1.5vw;
+    color: var(--titule-color);
+}
+#secundary-image-box div p{
+    text-indent: 2em;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+#secundary-image-box div img{
+    width: 97%;
+    height: auto;
+    border-style: ridge;
+}
+footer{
+    text-align: center;
+    background-color: var(--principal-color);
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
+h5{
+    font-weight: 800;
+}
